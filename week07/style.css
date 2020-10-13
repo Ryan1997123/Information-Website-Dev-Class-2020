@@ -1,0 +1,112 @@
+/*HW 7 Using CSS Flex or Grid display create an interactive artwork. 
+It can be inspired by this week's readings or an interactive self portrait. 
+You could also choose an existing work from art history - graphic design or abstract work - 
+try to recreate it using HTML + CSS. Post a link to your work tbd.
+Ryan Monaghan
+10/14/2020
+Prof. Leopold */
+
+
+
+*{
+	margin: 0;
+	padding: 0;	
+	border-style: dotted;
+	font-family: 'OCR A Std', monospace;
+	text-align: center;
+}	
+
+body{
+	background-image: url("images/polka.jpg");
+}
+
+p{
+	color: #CC0066;
+	background-color: white;
+
+}
+
+h2{
+	color: #FFCC00;
+	background-color: black;
+	font-family: 'Bookman, URW',serif;
+}
+
+h4{
+	font-family: 'Snell Roundhand', cursive;
+	color: #CC0066;
+	background-color: #CCCCFF;
+
+}
+
+
+/*1fr -> the entire width of grid box = one fraction (one column inside grid*/
+/*Grid. Need to change the layout? move around the content in the parenthesis*/
+/*use a . to add whitespace*/
+.grid {
+	display: grid;
+	/*Middle colum make a width of 500px*/
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	grid-template-areas: 
+	"title title"
+	"header header"
+	" sidebar sidebar"
+	"content content"
+	"footer footer";
+	grid-gap: 10px;
+
+}
+
+/*span = how much space is taken up by grid*/
+.title{
+	grid-area: title;
+	font-size: 20px;
+	text-align: center;
+	font-family: 'OCR a Std', monospace;
+	}
+
+
+.header{
+	grid-area: header;
+	}
+
+.sidebar{
+	grid-area: sidebar;
+	}
+
+/*I made a SECOND grid inside of content */
+.content{
+	grid-area: content;
+	}
+
+.footer{
+	grid-area: footer;
+	}
+
+.grid div:nth-child(even){
+	background-color: #FF0099;
+}
+
+.grid div:nth-child(odd){
+	background-color: #990066;
+}
+
+
+
+
+
+
+/*Added this code to be sure that if we view the website in anything larger than 736px we will see the styling in the media query*/ 
+@media screen and (min-width: 736px)
+{
+	.grid {
+	display: grid;
+	/*Middle colum make a width of 500px*/
+	grid-template-columns: 1fr 500px 500px 1fr;
+	grid-template-areas: 
+	". title title ."
+	". header header ."
+	". sidebar content ."
+	". footer footer .";
+}
