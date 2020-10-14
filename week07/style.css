@@ -17,7 +17,8 @@ Prof. Leopold */
 }	
 
 body{
-	background-image: url("images/polka.jpg");
+	/*background-image: url("images/polka.jpg");*/
+	background: url("images/polkagif.gif");
 }
 
 p{
