@@ -4,7 +4,7 @@ Prof Leopold
 Info & Web Midterm WF + SM*/
 
 body{
-	background-image: url("images/myphoto.jpg");
+	background-image: url("images/voting.png");
 
 }
 
@@ -15,7 +15,7 @@ body{
 h3{
 	text-align: center;
 	color: darkorange;
-	background-color: cornsilk;
+	background-color: black;
 	
 
 }
@@ -23,7 +23,7 @@ h3{
 p{
 	font-size: 20px;	
 	color: chocolate	;
-	background-color: cornsilk;
+	background-color: black;
 	
 }
 
@@ -36,7 +36,7 @@ h4{
 
 li{
 	background-color: black;
-	color: darkorange;
+	color: chocolate;
 	font-size: 20px;
 
 }
