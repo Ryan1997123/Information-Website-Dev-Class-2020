@@ -1,0 +1,42 @@
+/*Ryan Monaghan
+Prof Leopold
+10/15/2020
+Info & Web Midterm WF + SM*/
+
+body{
+	background-image: url("images/myphoto.jpg");
+}
+
+*{
+	font-family: "Gill Sans", sans-serif;
+}
+
+h3{
+	text-align: center;
+	color: darkorange;
+	background-color: cornsilk;
+	
+
+}
+
+p{
+	font-size: 20px;	
+	color: chocolate	;
+	background-color: cornsilk;
+	
+}
+
+h4{
+	font-size: 30px;
+	color: darkorange;
+	background-color: black;
+	text-decoration: underline;	
+}
+
+li{
+	background-color: black;
+	color: darkorange;
+	font-size: 20px;
+
+}
+
