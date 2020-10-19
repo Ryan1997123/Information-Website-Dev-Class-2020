@@ -20,20 +20,21 @@ body{
 }
 /*For the feature (President+VP Info) & Copyright footer*/
 #nav, #feature{
-	background-color: #efefef;
+	background-color: red;
+	color:black;
 	padding: 20px;
 	margin: 30px;
 }
 
 #footer{
-	background-color: #efefef;
+	background-color: gray;
 	margin: 0%;
 	padding: 0%;
 }
 
 /*For the three iframe columns*/
 .column1, .column2, .column3{
-	background-color: #efefef;
+	background-color: blue;
 	width: 28%;
 	float: left;	
 	margin: 20px;
