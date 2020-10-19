@@ -1,0 +1,91 @@
+/*Everything wrapped in the body*/
+body{
+	width: 1000px;
+	margin: 0 auto;
+	background-image: url("images/coolbg.gif");
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: 2900px;
+	border-style: dashed solid;
+	border-right-color: skyblue;
+	border-left-color: skyblue;
+	border-top-color: red;
+	border-bottom-color: red;
+}
+
+/*The content div that holds all the div ids and classes below*/
+#content{
+	overflow: auto;
+	height: 900%;
+}
+/*For the feature (President+VP Info) & Copyright footer*/
+#nav, #feature{
+	background-color: #efefef;
+	padding: 20px;
+	margin: 30px;
+}
+
+#footer{
+	background-color: #efefef;
+	margin: 0%;
+	padding: 0%;
+}
+
+/*For the three iframe columns*/
+.column1, .column2, .column3{
+	background-color: #efefef;
+	width: 28%;
+	float: left;	
+	margin: 20px;
+
+
+}
+
+/*For the VP Candidates and Policies Page*/
+.other{
+	vertical-align: 20;
+	background-color: #efefef;
+	padding: 10px;
+	margin: 30px;
+	display: block;
+	align-self: right;
+}
+
+ul{
+	font-family: "Lucida Console", Courier, monospace;	
+}
+
+
+li{
+	display: inline;
+	padding: 5px;
+}
+
+
+h1{
+	text-align: center;
+	align-items: flex-start;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h4{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*The button. Need to fix the positioning!!*/
+button{
+background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 9px;
+  text-decoration: none;
+  display: block;
+  font-size: 10px;
+  margin-left: auto;
+}
+
+
+
+
+
+
