@@ -1,17 +1,33 @@
+/* Ryan Monaghan 
+Midterm for Prof. Leopold
+2020.10.28
+*/
+
+
+/*Ideas: add grid into the css part for the structure
+Change the background and remove the top image
+Add a grid style
+Make the content in nav bar a button!
+*/
+
+
 /*Everything wrapped in the body*/
 body{
 	width: 1000px;
 	margin: 0 auto;
-	background-image: url("images/coolbg.gif");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url(images/cooldarkbg.jpg);
 	text-align: center;
 	background-repeat: no-repeat;
-	background-size: 2900px;
 	border-style: solid;
-	border-right-color: skyblue;
-	border-left-color: skyblue;
-	border-top-color: red;
-	border-bottom-color: red;
+	border-right-color: navy;
+	border-left-color: navy;
+	border-top-color: firebrick;
+	border-bottom-color: firebrick;
+	border-radius: round;
 }
+/*ADD border-radius to get the round*/
 
 /*The content div that holds all the div ids and classes below*/
 #content{
@@ -19,47 +35,101 @@ body{
 	height: 900%;
 }
 /*For the feature (President+VP Info) & Copyright footer*/
-#nav, #feature{
-	background-color: red;
-	color:black;
-	padding: 20px;
-	margin: 30px;
+/*	#nav{
+	display: flex;
+	flex-flow: row-wrap;
+	justify-content: space-around;
+	align-items: baseline;
+	border: solid;
+	background-color: firebrick;
+	font-size: 10;
+	width: 90%;
+	height: 10%;
+	padding: 15px;
+	margin: 12px 0 0 12px;
+}
+*/
+
+#navigation{
+	display: flex;
+	flex-flow: nowrap;
+	align-items: baseline;
+	border: solid;
+	background-color: lightgreen;
+	font-size: 10;
+	width: 100%;
+	height: 10%;
+	padding: 0px;
+	margin: 10px 0 0 0px;
 }
 
-#footer{
-	background-color: gray;
-	margin: 0%;
-	padding: 0%;
+#button1,#button2,#button3,#button4,#button5{
+	font-size: 16px	;
+	font-family: 'Anton', sans-serif;
+	font-family: 'Niconne', cursive;
+	font-family: 'Noto Serif SC', serif;
+	font-family: 'Permanent Marker', cursive;
+	background-color: skyblue;
+	border: groove; 
+	opacity: 0.6s;
+	transition: 0.3s;
+	height: 10%;
+	padding: 10px;
+	margin: 15px 0 0 35px
 }
+
+
+
+
+#feature{
+	vertical-align: 20;
+	background-color: firebrick;
+	padding: 10px;
+	margin: 30px;
+	display: block;
+	align-self: right;
+	
+}
+
+
+
 
 /*For the three iframe columns*/
 .column1, .column2, .column3{
-	background-color: blue;
+	background-color: lightgreen;
 	width: 28%;
 	float: left;	
 	margin: 20px;
-
-
 }
 
 /*For the VP Candidates and Policies Page*/
 .other{
 	vertical-align: 20;
-	background-color: #efefef;
+	background-color: floralwhite;
 	padding: 10px;
 	margin: 30px;
 	display: block;
 	align-self: right;
 }
 
-ul{
-	font-family: "Lucida Console", Courier, monospace;	
+
+footer{
+
+	margin: 0;
+	padding: 0;
+	color: pink;
+}
+
+p{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Rufina', serif;
 }
 
 
 li{
 	display: inline;
-	padding: 5px;
+	margin: 0;
+
 }
 
 
@@ -70,23 +140,130 @@ h1{
 }
 
 h4{
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Dancing Script', cursive;
+	font-size: 30px;
+	
 }
 
-/*The button. Need to fix the positioning!!*/
+/*To change the color of the h4 headers to red, white, and blue in the columns1-3*/
+
+#column1h4{
+	background-color: #DB4437;	;
+}
+
+#column2h4{
+	background-color: white;
+}
+
+#column3h4{
+	background-color: dodgerblue;
+}
+
 button{
-background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 9px;
-  text-decoration: none;
-  display: block;
-  font-size: 10px;
-  margin-left: auto;
+	border:none;
+	margin:9px;
+	padding: 9px;
+	background-color: gray;
+	font-family: 'Lalezar', cursive;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Rufina', serif;		
+	border-radius: 50px, 50px;
+}
+
+/*
+#button1{
+	background-color: darkseagreen;
+	border:2px solid darkslategray;
+	font-size: 20px;
+	
+}
+
+#button2{
+	background-color: darkseagreen;
+	border:2px solid darkslategray;
+	font-size: 20px;
+}
+
+#button3{
+	background-color: darkseagreen;
+	border:2px solid darkslategray;
+	font-size: 20px;
+	
+}
+
+#button4{
+	background-color: darkseagreen;
+	border:2px solid darkslategray;
+	font-size: 20px;
+}
+
+#button5{
+	background-color: darkseagreen;
+	border:2px solid darkslategray;
+	font-size: 20px;
+}
+*/
+
+
+/*Changing the buttons for Trump and Biden*/
+#donaldtrump{
+	border:solid darkred;
+	background-color: indianred;
+	font-size: 16px;
+	font-family: 'Lalezar', cursive;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Rufina', serif;
+	font-family: 'VT323', monospace;
+}
+
+#joebiden{
+
+	border:solid darkblue;
+	background-color: royalblue;
+	font-size: 16px;
+	font-family: 'Lalezar', cursive;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Rufina', serif;
+	font-family: 'VT323', monospace;
+	
+}
+/*Changing the buttons for Kamala and Pence*/
+
+#kamala{
+	border:solid darkblue;
+	background-color: royalblue;	
+	font-size: 16px;
+	font-family: 'Lalezar', cursive;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Rufina', serif;
+	font-family: 'VT323', monospace;
+}
+
+#pence{
+	border:solid darkred;
+	background-color: indianred;
+	font-size: 16px;
+	font-family: 'Lalezar', cursive;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Rufina', serif;
+	font-family: 'VT323', monospace;
+		
 }
 
 
 
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {...}
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
 
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}

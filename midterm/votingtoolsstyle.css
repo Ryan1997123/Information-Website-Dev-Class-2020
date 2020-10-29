@@ -1,0 +1,212 @@
+/* Ryan Monaghan 
+Midterm for Prof. Leopold
+2020.10.28
+*/
+
+
+/*Navigation bar using flex*/
+.navigation{
+	display: flex;
+	flex-flow: row-wrap;
+	justify-content: space-around;
+	align-items: baseline;
+	border: solid;
+	background-color: lightgreen;
+	font-size: 10;
+	width: 100%;
+	height: 10%;
+	padding: 15px;
+	margin: 12px 0 0 12px;
+}
+
+/*The body*/
+body{
+	
+	background-image: url(images/goodbg.jpg);
+	background-repeat: no-repeat
+	background-size: cover;
+	}
+
+
+/*Buttons for the nav bar*/
+#button1,#button2,#button3,#button4{
+	font-size: 16px	;
+	font-family: 'Anton', sans-serif;
+	font-family: 'Niconne', cursive;
+	font-family: 'Noto Serif SC', serif;
+	font-family: 'Permanent Marker', cursive;
+	background-color: skyblue;
+	border: groove; 
+	opacity: 0.6s;
+	transition: 0.3s;
+}
+
+
+#introtext{
+	text-align: center;
+	font-size: 35px;
+	font-family: 'Anton', sans-serif;
+	font-family: 'Niconne', cursive;
+}
+
+
+
+/*First row container for flex*/
+.flexbox-container{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+margin: 12px 0 0 12px;
+justify-content: space-between;
+align-content: space-between;
+
+
+
+}
+
+.flexbox-item1 {
+	
+   background-color: firebrick;
+   min-height: 100px;
+   flex-shrink: 0;
+
+
+  
+}
+.flexbox-item2 {
+	
+     background-color: azure;
+   	 min-height: 100px;
+   	 flex-shrink: 0;
+
+}
+
+
+.flexbox-item3 {
+	
+    background-color: dodgerblue;
+     min-height: 100px;
+     flex-shrink: 0;
+    
+
+}
+
+
+
+h4{
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Anton', sans-serif;
+}
+
+p{
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Anton', sans-serif;
+	font-family: 'Niconne', cursive;
+	font-family: 'Noto Serif SC', serif;
+}
+
+li{
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Anton', sans-serif;
+	font-family: 'Niconne', cursive;
+	font-family: 'Noto Serif SC', serif;
+}
+
+#moreintro{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin: 10px;
+	padding:10px;
+	min-height: 10;
+	font-family: 'Amatic SC', cursive;
+	font-family: 'Anton', sans-serif;
+	font-family: 'Niconne', cursive;
+	font-family: 'Noto Serif SC', serif;
+	font-family: 'Permanent Marker', cursive;
+}
+#moreintro2	{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin: 10px;
+	padding:10px;
+	min-height: 10;
+	font-family: 'Amatic SC', cursive;
+	font-family: 'Anton', sans-serif;
+	font-family: 'Niconne', cursive;
+	font-family: 'Noto Serif SC', serif;
+	font-family: 'Permanent Marker', cursive;
+}
+
+.flexbox-container2{
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+
+.flexbox-container2-item1{
+
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-left: 40px;
+	margin-right: 30px;
+}
+
+
+.flexbox-container2-item2{
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-right: 30px;
+
+}
+
+.flexbox-container2-item3{
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+	
+	/*Media Query*/
+
+	@media all and (max-width: 400px){
+
+		.flexbox-container{
+			flex-wrap: wrap;
+			flex: 1 1 100%;
+		}
+	}
+
+
+footer{
+
+	margin: 0;
+	padding: 0;
+	color: pink;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}

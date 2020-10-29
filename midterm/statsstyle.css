@@ -1,0 +1,399 @@
+/* Ryan Monaghan 
+Midterm for Prof. Leopold
+2020.10.28
+*/
+
+
+
+
+/*Navigation bar using flex*/
+.navigation{
+	display: flex;
+	flex-flow: row-wrap;
+	justify-content: space-around;
+	align-items: baseline;
+	border: solid;
+	background-color: lightgreen;
+	font-size: 10;
+	width: 98%;
+	height: 5%;
+	padding: 10px;
+	margin: 12px 0 0 12px;
+}
+
+/*The body*/
+body{
+	
+	background-image: url(images/blueishgreen.jpg);
+	background-repeat: no-repeat;
+	background-clip: 0;
+	background-size: cover;
+}
+
+
+/*Buttons for the nav bar*/
+#button1,#button2,#button3,#button4{
+	font-size: 16px	;
+	font-family: 'Anton', sans-serif;
+	font-family: 'Niconne', cursive;
+	font-family: 'Noto Serif SC', serif;
+	font-family: 'Permanent Marker', cursive;
+	background-color: skyblue;
+	border: groove; 
+	opacity: 0.6s;
+	transition: 0.3s;
+}
+
+
+#introtext{
+	text-align: center;
+	font-size: 35px;
+	font-family: 'Anton', sans-serif;
+	font-family: 'Niconne', cursive;
+}
+
+
+#sizeme{
+	width: 1000;
+}
+
+/*First row container for flex*/
+.flexbox-container{
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+margin: 12px 0 0 12px;
+padding: 10px;
+width: 100%;
+justify-content: space-between;
+align-content: space-between;
+
+
+
+}
+
+.flexbox-item1 {
+	
+  background-color: #ccff33;	
+   min-height: 100px;
+   flex-shrink: 0;
+  
+
+
+  
+}
+.flexbox-item2 {
+	
+     background-color: #ffff33;
+   	 min-height: 100px;
+   	 flex-shrink: 0;
+   	 
+
+}
+
+
+.flexbox-item3 {
+	
+    background-color: #ffcc66;
+     min-height: 100px;
+     flex-shrink: 0;
+
+
+}
+
+
+h2{
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+}
+
+
+h4{
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Anton', sans-serif;
+}
+
+p{
+	text-align: center;
+	font-size: 16px;
+}
+
+li{
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Anton', sans-serif;
+	font-family: 'Niconne', cursive;
+	font-family: 'Noto Serif SC', serif;
+}
+
+#moreintro{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin: 10px;
+	padding:10px;
+	min-height: 10;
+	font-size: 20px;
+	font-family: 'Amatic SC', cursive;
+	font-family: 'Anton', sans-serif;
+	font-family: 'Niconne', cursive;
+	font-family: 'Noto Serif SC', serif;
+	font-family: 'Permanent Marker', cursive;
+}
+#moreintro2	{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin: 10px;
+	padding:10px;
+	min-height: 10;
+	font-size: 20px;
+	font-family: 'Amatic SC', cursive;
+	font-family: 'Anton', sans-serif;
+	font-family: 'Niconne', cursive;
+	font-family: 'Noto Serif SC', serif;
+	font-family: 'Permanent Marker', cursive;
+}
+
+
+
+
+
+
+.flexbox-container2{
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	margin: 12px 0 0 12px;
+	padding: 10px;
+	width: 100%;
+	justify-content: space-between;
+	align-content: space-between;
+
+}
+
+.flexbox-container2-item1{
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: #00ff99;
+	margin: 12px 0 0 12px;
+	padding: 10px;
+	width: 100%;
+	
+}
+
+
+.flexbox-container2-item2{
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: #66ffcc;
+	margin: 12px 0 0 12px;
+	padding: 10px;
+	width: 100%;
+
+}
+
+
+.flexbox-container2-item3{
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: #66ffff;
+	margin: 12px 0 0 12px;
+	padding: 10px;
+	width: 100%;
+	
+}
+
+
+
+
+
+
+
+
+
+
+.flexbox-container3{
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 50px 0 0 50px;
+	padding: 10px;
+	width: 100%;
+
+
+	
+}
+
+.flexbox-container3-item1{
+	display: flex;
+	flex-wrap: nowrap;
+	background-color: #cc0000;
+	margin-bottom: 20px;
+	justify-content: space-between;
+
+}
+
+
+.flexbox-container3-item2{
+	display: flex;
+	justify-content: space-between;
+	background-color: #ffffff;
+	margin-bottom: 20px;
+}
+
+.flexbox-container3-item3{
+	display: flex;
+	justify-content: space-between;
+	background-color: orange;
+	background-color:  #99ccff	
+	margin-bottom: 20px;
+	
+
+}
+
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+
+
+
+
+#trumppolicies{
+	text-align: center;
+	
+}
+
+#bidenpolicies{
+		text-align: center;
+		
+}
+
+#covidmap{
+	text-align: center;
+	
+}
+
+
+#centermenow,#centermenow2, #cenetermenow3{
+	text-align: top;
+}
+
+
+
+
+
+
+
+
+
+#paragraphspecial1{
+	font-size: 16px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Rufina', serif;
+
+}
+
+#paragraphspecial2{
+	font-size: 16px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Rufina', serif;
+}
+#paragraphspecial3{
+	font-size: 16px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Rufina', serif;
+}
+#paragraphspecial4{
+	font-size: 16px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Rufina', serif;
+}
+#paragraphspecial5{
+	font-size: 16px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Rufina', serif;
+}
+#paragraphspecial6{
+	font-size: 16px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Rufina', serif;
+}
+#paragraphspecial7{
+	font-size: 16px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Rufina', serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*Media Query*/
+
+	@media all and (max-width: 400px){
+
+		.flexbox-container{
+			flex-wrap: wrap;
+			flex: 1 1 100%;
+		}
+	}
+
+	/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+footer{
+
+	margin: 0;
+	padding: 0;
+	color: pink;
+}

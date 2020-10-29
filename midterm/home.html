@@ -1,3 +1,11 @@
+
+<!--Ryan Monaghan 
+Midterm for Prof. Leopold
+2020.10.28
+-->
+
+
+
 <!DOCTYPE html>
 <html>
 
@@ -5,6 +13,18 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Anton&family=Niconne&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Anton&family=Niconne&family=Noto+Serif+SC:wght@200&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Anton&family=Niconne&family=Noto+Serif+SC:wght@200&family=Permanent+Marker&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Anton&family=Niconne&family=Noto+Serif+SC:wght@200&family=Permanent+Marker&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="
+	stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Rufina&display=swap" rel="stylesheet">	
+	<link href="https://fonts.googleapis.com/css2?family=Lalezar&family=Open+Sans+Condensed:wght@300&family=Rufina&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lalezar&family=Open+Sans+Condensed:wght@300&family=Rufina&family=VT323&display=swap" rel="stylesheet">
 
 	<title>Voting & Election Website</title>
 </head>
@@ -12,29 +32,40 @@
 
 <body>
 	<div id="header">
-			<img src="images/ballot.gif" height="150" width="400"> 	
-				<div id="nav">
+		
+		<div id="navigation">
 		<ul>
-			<li><a href="../index.html">Home</a></li>
-			<li><a href="whyvote.html">Why Vote</a></li>
-			<li><a href="votingtools.html">Voting Tools</a></li>
-			<li><a href="contactlawmakers.html">Contact Law Makers</a></li>
-			<li><a href="statsaboutvotingelection.html">Statistics (Voting & Election)</a></li>	
+			<li><a href="../index.html"><button id="button1"> Home</button></a></li>
+			
+			<li><a href="whyvote.html"><button id="button2">Why Vote</button></a></li>
+			
+
+			<li><a href="votingtools.html"> <button id="button3"> Voting Tools </button></a></li>
+			
+			<li><a href="contactlawmakers.html"><button id="button4"> Contact Law Makers</button></a></li>
+
+			<li><a href="statsaboutvotingelection.html"><button id="button5">Statistics (Voting & Election) </button> </a></li>	
 	  </ul>
+	  
    </div>
 </div>
 
-<div id ="content">
+<div id="content">
 	<div id="feature">
 	<h4>Presidential Candidates + Policies</h4>
+
+	<div class = "changebg">
+	<p>The U.S. Presidential Election is a hot topic.</p>
+	<p>Do you know who you're voting for as the newt President of the United States?</p><br>	
+	<p>Find out the policies of both candidates below!</p>
+	<ul><li><p>Republican? - Click Read More to find out more information about Donald Trump and his Policies</p></li></ul>
+	<p>Democrat? - Click Read More to find out more information about Joe Biden and his policies </p>
+	</div>
 	
-	<a href="https://www.freecodecamp.org/news/how-to-create-an-html-button-that-acts-like-a-link/"><button type="button">Read More</button></a>
-	
-	<p>Info goes here</p>
-	<p>blah blah blah</p>
-	<p>blah blah blah</p>
-	<p>blah blah blah</p>
-	<p>blah blah blah</p>
+	<!--Source: bbc.com-->
+	<a href="https://www.bbc.com/news/election-us-2020-53828147"><button id="donaldtrump">Read More (Donald Trump) </button></a>
+	<!--Source: bbc.com -->
+	<a href="https://www.bbc.com/news/election-us-2020-53575474"><button id="joebiden">Read More (Joe Biden) </button></a>
 
 </div>
 
@@ -42,47 +73,68 @@
 <div class="other"> 
 		<h4>VP Presidential Candidates + Policies</h4>
 
-		<a href="https://www.freecodecamp.org/news/how-to-create-an-html-button-that-acts-like-a-link/"><button type="button">Read More</button></a>
+		<!--<a href="https://www.freecodecamp.org/news/how-to-create-an-html-button-that-acts-like-a-link/">
+		<button type="button">Read More</button></a> -->
 
-		<p>Info goes here</p>
-		<p>blah blah blah</p>
-		<p>blah blah blah</p>
-		<p>blah blah blah</p>
+		<p>The U.S. Presidential Election is a hot topic.</p>
+		<p>Do you know who is running for Vice President?</p><br>
+		<p>Find out the policies of both candidates below!</p>
+		<p>Democrat? - Click the Read More button to learn about Kamala Harris' Policies and Ideas<p>
 
+		<ul><li><p>Republican? - Click the Read More Button to learn more about Mike Pence's Policies and Ideas too.</p></li></ul>
+
+		<!--Source politico.com-->
+		<a href="https://www.politico.com/news/2020/08/11/what-kamala-harris-believes-key-issues-positions-and-votes-393807">
+		<button id="kamala">Read More (Kamala Harris) </button></a>
+
+		<!--Source: abcnews.go.com -->
+		<a href="https://abcnews.go.com/Politics/mike-pence-republican-nominee-vice-president/story?id=72852442">
+		<button id="pence">Read More (Mike Pence) </button></a>
 	</div>
 
 
 <div class="article column1">
-	<h4>Today's Polls (U.S. Election)</h4>
-	<iframe src="https://www.cbsnews.com/2020-us-election-battleground-tracker/" height="300" width="300" alt="NY Times Todays Polls of the U.S. Election updated daily."></iframe>
+	<h4 id="column1h4">Today's Polls (U.S. Election)</h4>
+
+	<!--Source: cbsnews.com-->
+	<iframe src="https://www.cbsnews.com/2020-us-election-battleground-tracker/" height="300" width="100%" alt="NY Times Todays Polls of the U.S. Election updated daily."></iframe>
 
 </div>
 
 <div class = "article column2">
-	<h4>Questions & Answers about Voting</h4>
+	<h4 id="column2h4">Questions & Answers about Voting</h4>
 
-	<iframe src="https://www.cnn.com/interactive/2020/politics/voting-questions-answers/" height="300" width="300" alt="Q+A About Voting from CNN.com"></iframe>
+	<!--Source: cnn.com-->
+	<iframe src="https://www.cnn.com/interactive/2020/politics/voting-questions-answers/" height="300" width="100%" alt="Q+A About Voting from CNN.com"></iframe>
 	
 </div>
 
 
 <div class="article column3">
-	<h4>Should I Vote In Person?(COVID)</h4>
+	<h4 id="column3h4">Should I Vote In Person?(COVID)</h4>
 
-	<iframe src="https://covid.cdc.gov/covid-data-tracker/#cases_casesinlast7days" height="300" width="300" alt="CDC COVID-19 Data Tracker by U.S. State"></iframe>
+	<!--Source: covid.cdc.gov-->
+	<iframe src="https://covid.cdc.gov/covid-data-tracker/#cases_casesinlast7days" height="300" width="100%" alt="CDC COVID-19 Data Tracker by U.S. State"></iframe>
 
 </div>
 </div>
 
-<div id="footer">
-<h4>&copy; Copyright (I do not own the rights to any works)</h4>
-	
+<footer>
+<h4>&copy; Disclaimer (I do not own the rights to the articles or outside works)</h4>
+</footer>
 
 	</div>
 
 </body>	
 
+<!--text-decoration: none;
+cursor: pointer;
+<footer>
+footer { }
+<main></main>
+<nav></nav>
 
+ -->
 
 
 
