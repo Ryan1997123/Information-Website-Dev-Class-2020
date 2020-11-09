@@ -1,7 +1,7 @@
-/*Ryan Monaghan
-11.09.2020
-Week 11 Intro to Web
-Prof Leopold*/
+//Ryan Monaghan
+//11.09.2020
+//Week 11 Intro to Web
+//Prof Leopold
 
 console.log("js!"); 
 
