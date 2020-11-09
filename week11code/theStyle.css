@@ -1,15 +1,49 @@
+/*Ryan Monaghan
+11.09.2020
+Week 11 Intro to Web
+Prof Leopold*/
+
+
 div {
  display: flex;
 }
 button {
- padding: 200px;
- border-radius: 250px;
+ padding: 100px;
+ border-radius: 100px;
  margin-left: auto;
  margin-right: auto;
+ font-family: 'Anton', sans-serif;
 }
 
 
 button:hover {
- background-color: rgb(255,0,0);
+ background-color: rgb(255, 102, 204);
  border: 5px solid rgb(0,0,0);
+ font-family: 'Anton', sans-serif;
+ font-family: 'Syne Mono', monospace;
+}
+
+p{
+	text-align: center;
+	font-family: 'Anton', sans-serif;
+}
+
+h2,h4{
+	text-align: center;
+
+}
+#myContainer {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  background-image: url(images/wateromg.gif);
+ 
+ }
+
+#myAnimation {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  background-image: url(images/someboat.gif);	
+  background-size: cover;
 }
