@@ -140,7 +140,7 @@ var fpArray = ["it1", "it2", "it3", "it4", "it5", "it6", "it7", "it8", "it9", "i
 // array to keep individual count of how many times each item has been clicked
 var countArray = [0,0,0,0,0,0,0,0,0,0];
 
-//n umber of points variable to count the number of points for a user
+//number of points variable to count the number of points for a user
 var numOfPoints = 0.0;
 
 // when button with class id "fresh" is clicked
