@@ -1,0 +1,284 @@
+/*CSS for art.html*/
+/*Ryan Monaghan*/
+/*Info & Web*/
+
+
+
+body{
+    background-color: #9a2051;
+    border: thin;
+    width: 90%;
+    height: 100%;
+}
+
+img{
+  margin: 0 0 0 600;
+  padding: 3px;
+  border-radius: 30%;
+}
+
+#hr1{
+    width: 95%;
+    height: 0px;
+    background:transparent;
+    border: 10px solid #000
+}
+
+#hr2{
+    width: 95%;
+    height: 0px;
+    background:transparent;
+    border: 10px solid #000;    
+    
+    }
+
+#hr4{
+    width: 95%;
+    height: 0px;
+    background:transparent;
+    border: 10px solid #000;  
+}
+
+/*dotted hr*/
+#dotted{
+  width: 95%;
+  height: 0px;
+  background:transparent;
+  border: 2px solid #000;  
+  border-style: dotted;
+}
+
+#paint{
+  margin: 0 0 0 300;
+}
+
+#paint2{
+  margin: 0 0 0 1000;
+}
+    
+
+
+.introtext{
+    text-align: center;
+    padding: 2%;
+    font-family: 'Ranchers', cursive;
+    font-size: 50;
+}
+
+#moreinfo1{
+  font-family: 'Ranchers', cursive;
+  font-size: 30px;
+  text-align: center;
+}
+
+#moreinfo2{
+  font-family: 'Ranchers', cursive;
+  font-size: 30px;
+  text-align: center;
+}
+
+#response1{
+  text-align: left;
+  font-family: 'Monoton', cursive;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'Sofia', cursive;
+}
+
+#response2{
+font-family: 'Monoton', cursive;
+font-family: 'PT Sans Narrow', sans-serif;
+font-family: 'Sofia', cursive;
+}
+
+#response3{
+font-family: 'Monoton', cursive;
+font-family: 'PT Sans Narrow', sans-serif;
+font-family: 'Sofia', cursive;
+}
+
+
+#response4{
+  font-family: 'Monoton', cursive;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'Sofia', cursive;
+  padding: 5px;
+  text-align: center
+}
+
+#centerimage{
+  margin: 10 0 0 500;
+}
+
+#response5{
+  font-family: 'Monoton', cursive;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'Sofia', cursive;
+   text-align: center;
+}
+
+#response6{
+  font-family: 'Monoton', cursive;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'Sofia', cursive;
+}
+
+#contemporaryartists{
+   margin: 0 0 -140 250;
+   font-family: 'Pacifico', cursive;
+   font-family: 'PT Sans Narrow', sans-serif;
+   font-size: 30px;
+
+}
+
+#modernartists{
+    margin: 0 0 0 1000;
+    font-family: 'Pacifico', cursive;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 30px;
+}
+
+/*To style the names of the artists*/
+#artistsname1,#artistsname3,#artistsname5{
+ text-align: center;
+ font-size: 20px;
+ font-family: 'PT Sans Narrow', sans-serif;
+ float: left;
+ background-color: pink;
+ text-shadow: 1px 0px 0px #686868 , 0px 1px 0px #686868, -1px 0px 0px #686868, 
+ 0px -1px 0px #686868, 1px 4px 5px #aeaeae;
+}
+
+
+/*To style the names of the art movements*/
+#artistsname2,#artistsname4,#artistsname6{
+text-align: center;
+font-family: 'PT Sans Narrow', sans-serif;
+font-size: 20px;
+float: left;
+background-color: lightskyblue;
+text-shadow: 1px 0px 0px #686868 , 0px 1px 0px #686868, -1px 0px 0px #686868, 
+0px -1px 0px #686868, 1px 4px 5px #aeaeae;
+}
+
+
+
+#moreinfo{
+    text-align: center;
+}
+
+/*Code for the grid*/
+.mygrid {
+    display: flex;                       /*made a flex container*/
+    flex-wrap: wrap;                     
+    justify-content: space-around;
+    border: 1px solid rgba(0, 0, 0, 0);
+    
+  }
+  .block1,.block2,.block3,.block4,.block5,.block6,.block7,.block8,.block9 {
+    flex: 0 0 32%;                       /* code that basically says don't grow, don't shrink, width */
+    height: 50px;
+    margin-bottom: 5px;
+    margin: 10 0 0 10;
+    background-color: #999;
+    border-radius: 300%;
+    width: 100;
+    height: 150;
+    padding: 7; 
+  }
+
+
+  /*Blocks 1,3, and 5 are for contemporary artists*/
+  .block1{
+    background-image: url("images/keithharingself.jpg");
+    background-size: contain;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-color: rgba(28, 2, 46, 0.93);
+    
+  }
+
+  .block3{
+    background-image: url("images/yayoi.jpg");
+    background-size: contain;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-color: rgba(28, 2, 46, 0.93);
+    
+  }
+
+  .block5{
+    background-image: url("images/basquiat.jpg");
+    background-size: contain;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-color:  rgba(28, 2, 46, 0.93);
+    
+  }
+
+/*Blocks 2,4, and 6 are for Art Movements*/
+.block2{
+    background-image: url("images/popart.png");
+    background-size: contain;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-color:  #baff92;
+    
+  }
+
+  .block4{
+    background-image: url("images/japaneseart.jfif");
+    background-size: contain;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-color:  #baff92;
+    
+    
+  }
+
+  .block6{
+    background-image: url("images/psychedelicart.jpg");
+    background-size: contain;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-color:  #baff92;
+  }
+
+
+
+  /*footer stuff :D*/
+  footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+    #footerbutton1{
+    font-family: 'Pacifico', cursive;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    float: center;
+    color: #707070;
+    border-radius: 100px; 
+    background-color: rgb(179, 15, 129);
+    margin: 10 -5 -400 0;
+    }
+
+    #footerbutton2{
+    font-family: 'Pacifico', cursive;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    float: center;
+    color: #707070;
+    border-radius: 100px;
+    background-color: rgb(179, 15, 129);
+    margin: 10 -5 -5 1200;
+    }
+  
+
+  
+
+
+    /*ISSUE: Fix the LAST PAGE button. It looks like the link is there but i cannot click it!*/

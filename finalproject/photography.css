@@ -1,0 +1,309 @@
+/*CSS for photography.html*/
+/*Ryan Monaghan*/
+/*Info & Web*/
+
+body{
+    background-color: #75aaf9;
+    
+}   
+
+
+
+
+.photogrid{
+display: flex;                       /*made a flex container*/
+flex-wrap: wrap;                     
+justify-content: space-around;
+border: 1px solid rgba(0, 0, 0, 0);
+}
+
+
+#photo1,#photo2,#photo3,#photo4,#photo5,#photo6, #photo7, #photo8, #photo9, #photo10, #photo11, #photo12, #photo13, #photo14, #photo15, #photo16, #photo17, #photo18, #photo19, #photo20{
+    flex: 0 0 32%;                       /* code that basically says don't grow, don't shrink, width */
+    margin: 10 10 10 10;
+    border-radius: 25px;
+    width: 100;
+    height: 450;
+    padding: 10; 
+  }
+
+
+#photo1{
+    background-image: url(images/photo1.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+#photo2{
+    background-image: url(images/photo2.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+#photo3{
+    background-image: url(images/photo3.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+#photo4{
+    background-image: url(images/photo4.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+#photo5{
+    background-image: url(images/photo5.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+#photo6{
+    background-image: url(images/photo6.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+#photo7{
+    background-image: url(images/photo7.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+#photo8{
+    background-image: url(images/photo8.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+#photo9{
+    background-image: url(images/photo9.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+#photo10{
+    background-image: url(images/photo10.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+#photo11{
+    background-image: url(images/photo11.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+#photo12{
+    background-image: url(images/photo12.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+#photo13{
+    background-image: url(images/photo13.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+#photo14{
+    background-image: url(images/photo14.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+#photo15{
+    background-image: url(images/photo15.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+#photo16{
+    background-image: url(images/photo16.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+#photo17{
+    background-image: url(images/photo17.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+#photo18{
+    background-image: url(images/photo18.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+#photo19{
+    background-image: url(images/photo19.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+#photo20{
+    background-image: url(images/photo20.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+
+#introtext{
+    font-family: 'Ranchers', cursive;
+    font-family: 'Satisfy', cursive;
+    margin: 0 1 1 290;
+    padding: 2%;
+    font-size: 25px;
+}
+
+
+
+
+/*Main itle text for the webpage*/
+#photography{
+    text-align: center;
+    padding: 2%;
+    font-family: 'Ranchers', cursive;
+    font-size: 50;
+    margin: 10;
+    word-spacing: 25px;
+}
+
+#textbelowquote, #text1,#text2,#text3,#text4{
+    margin: 0 0 0 100;
+    padding: -2;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Shadows Into Light Two', cursive;
+    background-color: pink;
+    border-radius: 23px;
+}
+
+
+
+/*Code that makes the camera flash like you're taking a photo :D*/
+.flash{
+    opacity: 1;
+    -webkit-animation: flash 1s;
+    animation: flash 1s;
+    margin: 0 0 0 640;
+}
+
+@-webkit-keyframes flash {
+    0% { opacity: .3; }
+    100% { opacity: 1; }
+   }
+   @keyframes flash {
+    0% { opacity: .3; }
+    100% { opacity: 1; }
+   }
+
+   @-webkit-keyframes flash {
+    0%, 50%, 100% { opacity: 1; }
+    25%, 75% { opacity: 0; }
+   }
+   @keyframes flash {
+    0%, 50%, 100% { opacity: 1; }
+    25%, 75% { opacity: 0; }
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Footer*/
+#footerbutton1{
+    font-family: 'Pacifico', cursive;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    float: center;
+    color: #707070;
+    border-radius: 100px; 
+    background-color: rgb(179, 15, 129);
+    margin: 10 -5 -400 0;
+    }
+
+    #footerbutton2{
+    font-family: 'Pacifico', cursive;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    float: center;
+    color: #707070;
+    border-radius: 100px;
+    background-color: rgb(179, 15, 129);
+    margin: 10 -5 -5 1200;
+    }
+
+    footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
+  
+
+  
+
+
+    /*ISSUE: Fix the LAST PAGE button. It looks like the link is there but i cannot click it!*
