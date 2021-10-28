@@ -5,4 +5,4 @@ Projects include code in HTML,CSS,and JavaScript
 
 <h1>Homepage sneak peek : </h1>
 <br>
-<img src="homepageImage.JPG" alt="" height="500" width="500">
+<img src="homepageImage/homepageImage.JPG" alt="" height="700" width="800">
